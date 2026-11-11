@@ -271,7 +271,7 @@ def main():
         print(f"ファイル読み込みエラー：{error}")
         return
 
-    print(f"キャラクター数：{len(characters)}人}")
+    print(f"キャラクター数：{len(characters)}人")
 
     answers = ask_answers(mapping)
     results = calculate_scores(characters, answers, mapping)
