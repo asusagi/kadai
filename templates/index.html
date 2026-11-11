@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>キャラクター好み診断</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 24px 14px 50px;
+            background: #f5f6fa;
+            color: #303443;
+            font-family: sans-serif;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 25px 10px;
+        }
+
+        h1 {
+            font-size: 27px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #777;
+            font-size: 14px;
+        }
+
+        .count {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 7px 16px;
+            border-radius: 20px;
+            background: #e8edff;
+            color: #425ac7;
+            font-size: 13px;
+        }
+
+        .question {
+            background: white;
+            padding: 22px;
+            margin-bottom: 17px;
+            border-radius: 13px;
+            box-shadow: 0 2px 9px #00000008;
+        }
+
+        .question h2 {
+            font-size: 17px;
+            margin: 0 0 17px;
+        }
+
+        .options {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .option {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            padding: 13px;
+            border: 1px solid #e2e5ed;
+            border-radius: 9px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.2s;
+        }
+
+        .option:hover {
+            background: #f0f3ff;
+            border-color: #8b9cf1;
+        }
+
+        .option:has(input:checked) {
+            background: #edf0ff;
+            border-color: #6579e8;
+        }
+
+        .option input {
+            accent-color: #5269d5;
+            width: 17px;
+            height: 17px;
+            flex-shrink: 0;
+        }
+
+        .submit-button {
+            display: block;
+            width: 100%;
+            border: none;
+            border-radius: 11px;
+            padding: 18px;
+            margin-top: 25px;
+            background: #5269d5;
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .submit-button:hover {
+            background: #4055bd;
+        }
+
+        .error {
+            padding: 15px;
+            margin-bottom: 20px;
+            background: #fff0f0;
+            color: #bd3030;
+            border-radius: 9px;
+            overflow-wrap: anywhere;
+        }
+
+        @media (max-width: 550px) {
+            .options {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 23px;
+            }
+
+            .question {
+                padding: 17px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <header>
+        <h1>キャラクター好み診断</h1>
+
+        <div class="subtitle">
+            あなたの好みに合うキャラクターを見つけよう！
+        </div>
+
+        <div class="count">
+            全10問・{{ character_count }}人から診断
+        </div>
+    </header>
+
+    {% if error_message %}
+        <div class="error">
+            {{ error_message }}
+        </div>
+    {% endif %}
+
+    {% if questions %}
+
+    <form action="{{ url_for('diagnose') }}" method="POST">
+
+        {% for question_id, options in questions.items() %}
+
+        <section class="question">
+
+            <h2>{{ question_id }}</h2>
+
+            <div class="options">
+
+                {% for option in options.keys() %}
+
+                <label class="option">
+
+                    <input
+                        type="radio"
+                        name="{{ question_id }}"
+                        value="{{ option }}"
+                        required
+                    >
+
+                    <span>{{ option }}</span>
+
+                </label>
+
+                {% endfor %}
+
+            </div>
+
+        </section>
+
+        {% endfor %}
+
+        <button type="submit" class="submit-button">
+            診断結果を表示する
+        </button>
+
+    </form>
+
+    {% endif %}
+
+</div>
+</body>
+</html>
