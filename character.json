@@ -1,0 +1,1596 @@
+[
+{
+  "character_id": "001",
+  "name": "天祥院 英智",
+  "unit": "fine",
+
+  "basic_profile": {
+    "height": "179cm",
+    "weight": "59kg",
+    "blood_type": "O",
+    "age": "19",
+    "birthday": "1/10"
+  },
+
+  "hobbies": [
+    "紅茶",
+    "ピアノ"
+  ],
+
+  "skills": [
+    "チェス",
+    "技能の模倣"
+  ],
+
+  "profile_text": "アイドル事務所『STARMAKER PRODUCTION』のアイドル代表。冷静で思慮深い性格で、アイドルを誰よりも愛しているが故に試練を与えることも多い。優美で柔らかい歌声を持ち、パフォーマンスは気品と風格を兼ね揃えている。『STARMAKER PRODUCTION』の『fine』に所属しリーダーを務めている。アイドルを世界的な文化にし、自らも愛されるトップアイドルになろうとしている。個人の仕事をセーブしているが、体調を鑑みながら増やそうか検討中。",
+
+  "source_url": "https://ensemble-stars.jp/characters/tenshouin_eichi"
+},
+{
+    "character_id": "002",
+    "name": "日々樹 渉",
+    "unit": "fine",
+
+    "basic_profile": {
+      "height": "180cm",
+      "weight": "63kg",
+      "blood_type": "AB",
+      "age": "19",
+      "birthday": "2/21"
+    },
+
+    "hobbies": [
+      "驚かすこと",
+      "読書",
+      "映画鑑賞",
+      "俳諧",
+      "写真",
+      "観劇",
+      "散歩（地上、上空）",
+      "工芸品収集"
+    ],
+
+    "skills": [
+      "声帯模写",
+      "手品",
+      "変装"
+    ],
+
+    "profile_text": "演劇の才能もあり手品が得意なマルチアイドル。相手の反応はどんなものでも褒美だと捉えている。賑やかで落ち着きのない性格。愛と驚きを大事にしており、相手を振り回すことも。溌剌とした明るい歌声に加えて、パフォーマンスは奔放で鮮やか。『STARMAKER PRODUCTION』の『fine』に所属している。演者とアイドルという両分野で今以上に高みを目指すため、英智から技術提供を受けて謎のトレーニング中。",
+
+    "source_url": "https://ensemble-stars.jp/characters/hibiki_wataru"
+  },
+  {
+    "character_id": "003",
+    "name": "姫宮 桃李",
+    "unit": "fine",
+
+    "basic_profile": {
+      "height": "154cm",
+      "weight": "49kg",
+      "blood_type": "B",
+      "age": "17",
+      "birthday": "1/13"
+    },
+
+    "hobbies": [
+      "ぬいぐるみ集め",
+      "テニス",
+      "読書（漫画）"
+    ],
+
+    "skills": [
+      "かわいいポーズ"
+    ],
+
+    "profile_text": "姫宮家の長男でお金持ち。伏見弓弦は幼少からの執事でお世話兼相談役。明るく無邪気な性格。プライドは高いが努力も必要なことは自身も理解しており葛藤中。愛らしく軽やかな歌声で、パフォーマンスもかわいらしい。『STARMAKER PRODUCTION』の『fine』に所属している。次の世代に憧れられるようなアイドルになるべく、新しい『fine』の形について自ら提案し実現したいと考えている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/himemiya_tori"
+  },
+  {
+    "character_id": "004",
+    "name": "伏見 弓弦",
+    "unit": "fine",
+
+    "basic_profile": {
+      "height": "175cm",
+      "weight": "60kg",
+      "blood_type": "A",
+      "age": "18",
+      "birthday": "10/18"
+    },
+
+    "hobbies": [
+      "掃除",
+      "整理整頓",
+      "絵画（勉強中）"
+    ],
+
+    "skills": [
+      "早着替え",
+      "体術",
+      "射撃"
+    ],
+
+    "profile_text": "姫宮桃李の執事として生きながら、共にアイドル活動をしている。冷静沈着で臨機応変。長年の執事生活で補佐が得意。陰の立て役者としてから自身のマルチな才能を活かす道を考え始めている。語りかけるような歌声に加え、パフォーマンスは真面目で気品がある。『STARMAKER PRODUCTION』の『fine』に所属している。自分の人生における楽しみを見つけつつ、執事としてもアイドルとしても主人を支えられる存在を目指している。",
+
+    "source_url": "https://ensemble-stars.jp/characters/fushimi_yuzuru"
+  },
+  {
+    "character_id": "005",
+    "name": "氷鷹 北斗",
+    "unit": "Trickstar",
+
+    "basic_profile": {
+      "height": "173cm",
+      "weight": "56kg",
+      "blood_type": "A",
+      "age": "18",
+      "birthday": "12/17"
+    },
+
+    "hobbies": [
+      "映画鑑賞",
+      "クロスワードパズル"
+    ],
+
+    "skills": [
+      "トランプ",
+      "パズル",
+      "暗記"
+    ],
+
+    "profile_text": "現役アイドルの父と大女優の母を持つサラブレッド。冷静で度胸があるが、天然なところもあり時に周りを翻弄する。自信家で流されない意思の強さが持ち味。ストレートで芯のある歌声を持ち、パフォーマンスもバイタリティがある。『STARMAKER PRODUCTION』の『Trickstar』に所属しリーダーを務めている。優しく愛のある、立派な大人のアイドルになるため歌への感情表現や演技の所作などを研究中。あらゆる人間味を探して他分野にも挑戦したいと思っている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/hidaka_hokuto"
+  },
+  {
+    "character_id": "006",
+    "name": "明星 スバル",
+    "unit": "Trickstar",
+
+    "basic_profile": {
+      "height": "172cm",
+      "weight": "56kg",
+      "blood_type": "O",
+      "age": "18",
+      "birthday": "6/22"
+    },
+
+    "hobbies": [
+      "キラキラしたもの集め",
+      "大吉と遊ぶこと"
+    ],
+
+    "skills": [
+      "ヒップホップダンス",
+      "料理"
+    ],
+
+    "profile_text": "元アイドルの父を持つアイドル。キラキラしたものが好きで、それは物理的なものに留まらない。明るく無邪気ではあるが、情熱的なところもある。みんなを笑顔にするアイドルを愛している。きらめくような歌声で、パフォーマンスは鮮やかでパワフル。『STARMAKER PRODUCTION』の『Trickstar』に所属している。ステージに限らず、どんな場所にいてもキラキラと輝くアイドルになることが目標。最近はバラエティ分野に注力したいが、演技にも興味が湧いている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/akehoshi_subaru"
+  },
+  {
+    "character_id": "007",
+    "name": "遊木 真",
+    "unit": "Trickstar",
+
+    "basic_profile": {
+      "height": "174cm",
+      "weight": "58kg",
+      "blood_type": "O",
+      "age": "18",
+      "birthday": "4/30"
+    },
+
+    "hobbies": [
+      "ゲーム全般",
+      "情報収集",
+      "写真撮影"
+    ],
+
+    "skills": [
+      "機械操作",
+      "映像編集"
+    ],
+
+    "profile_text": "キッズモデルの経験があり、ポージングの技術や周りの状況判断が得意。朗らかで親しみやすい性格。眼鏡はチャームポイント。ゲームや機械に詳しく先進的な分野を活かそうとしている。ほがらかで親しみのある歌声を持ち、パフォーマンスは繊細ながらも伸びやか。『STARMAKER PRODUCTION』の『Trickstar』に所属している。自分に自信を持ち、アイドルとしてステップアップした夢を見つけようとしている。SNSやネット配信を通してトレンドに上手く乗れないか模索中。",
+
+    "source_url": "https://ensemble-stars.jp/characters/yuuki_makoto"
+  },
+  {
+    "character_id": "008",
+    "name": "衣更 真緒",
+    "unit": "Trickstar",
+
+    "basic_profile": {
+      "height": "171cm",
+      "weight": "55kg",
+      "blood_type": "O",
+      "age": "18",
+      "birthday": "3/16"
+    },
+
+    "hobbies": [
+      "読書（漫画）",
+      "ドラマ鑑賞",
+      "シルバーアクセ集め"
+    ],
+
+    "skills": [
+      "ギター演奏",
+      "ダンス"
+    ],
+
+    "profile_text": "気さくな人柄でコミュニケーションが得意。土下座も得意。快活で社交的な性格だが、トラブルに巻き込まれやすい体質。苦労するとわかっていながら本人はやり甲斐としてむしろ積極的に引き受ける。甘く爽やかな歌声を持ち、パフォーマンスは鮮やかで威勢が良い。『STARMAKER PRODUCTION』の『Trickstar』に所属している。周りのひとを導けるような、リーダーシップを発揮していきたいと思っている。体力づくりのトレーニングやダンスの技術向上のため、様々なひとにアドバイスをもらっている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/isara_mao"
+  },
+  {
+    "character_id": "009",
+    "name": "南雲 鉄虎",
+    "unit": "流星隊",
+
+    "basic_profile": {
+      "height": "172cm",
+      "weight": "57kg",
+      "blood_type": "A",
+      "age": "17",
+      "birthday": "6/15"
+    },
+
+    "hobbies": [
+      "筋トレ",
+      "フライパン料理（勉強中）",
+      "ドラマ鑑賞"
+    ],
+
+    "skills": [
+      "格闘技（空手）"
+    ],
+
+    "profile_text": "男の中の男を目指してがんばるアイドル。心身共に強さを求め努力を惜しまない真面目で一生懸命な性格だが、考えることは苦手。芯が通った力強い歌声で、パフォーマンスもエネルギッシュ。『STARMAKER PRODUCTION』の『流星隊』に所属している。流星ブラックを担当。理想の自分に辿り着ける道を見つけ、デッカい男になるため『流星隊』の個性を最大限発揮できる環境を考えている。個人の仕事としては、格闘技を活かした仕事もしたいと思っている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/nagumo_tetora"
+  },
+  {
+    "character_id": "010",
+    "name": "高峯 翠",
+    "unit": "流星隊",
+
+    "basic_profile": {
+      "height": "179cm",
+      "weight": "63kg",
+      "blood_type": "O",
+      "age": "17",
+      "birthday": "8/29"
+    },
+
+    "hobbies": [
+      "ゆるキャラグッズ集め",
+      "ＤＩＹ"
+    ],
+
+    "skills": [
+      "野菜の目利き",
+      "イラスト"
+    ],
+
+    "profile_text": "手違いでアイドルになった経緯があるが、最近は向き合おうと努力中。面倒くさがりで後ろ向きな性格。不安定さが自己肯定感を上げてくれるため、ゆるキャラが心の支え。実家が八百屋で野菜の話題は得意。穏やかで落ち着きのある歌声で、パフォーマンスもすこし大人しい。『STARMAKER PRODUCTION』の『流星隊』に所属している。流星グリーンを担当。『流星隊』の中で自分を確立していき、自らも積極的に提案し頼ってもらえる存在になりたいと考えている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/takamine_midori"
+  },
+  {
+    "character_id": "011",
+    "name": "仙石 忍",
+    "unit": "流星隊",
+
+    "basic_profile": {
+      "height": "161cm",
+      "weight": "50kg",
+      "blood_type": "AB",
+      "age": "17",
+      "birthday": "6/9"
+    },
+
+    "hobbies": [
+      "忍者修行",
+      "忍者道具収集",
+      "読書（漫画）"
+    ],
+
+    "skills": [
+      "アクロバット",
+      "壁登り",
+      "隠密行動"
+    ],
+
+    "profile_text": "忍者の魅力を伝えるために活動するアイドル。子供っぽい中立的で割り切れる性格。人見知りなところはあるが、好かれやすく苦労も多い。ひたむきで溌剌とした歌声で、パフォーマンスは体躯を活かしアクロバティック。『STARMAKER PRODUCTION』の『流星隊』に所属している。流星イエローを担当。自分の『好き』が詰まった忍者という存在を、世界にも広めるための方法を考えている。『流星隊』と個人活動での忍者についての違いを出すべきか悩み中。",
+
+    "source_url": "https://ensemble-stars.jp/characters/sengoku_shinobu"
+  },
+  {
+    "character_id": "012",
+    "name": "守沢 千秋",
+    "unit": "流星隊",
+
+    "basic_profile": {
+      "height": "175cm",
+      "weight": "61kg",
+      "blood_type": "O",
+      "age": "19",
+      "birthday": "9/18"
+    },
+
+    "hobbies": [
+      "特撮番組鑑賞",
+      "フィギュア集め",
+      "人助け"
+    ],
+
+    "skills": [
+      "スタント",
+      "テーピング",
+      "元気な挨拶"
+    ],
+
+    "profile_text": "ヒーローに憧れ、ヒーローとして生きるアイドル。真っ直ぐな性格で誰よりも仲間を大事にするが、熱血漢なところが過ぎることも。元気で芯のある歌声に加え、パフォーマンスもバイタリティがあり情熱的。『STARMAKER PRODUCTION』の『流星隊』に所属している。流星レッドを担当。世界中の誰かを笑顔にし、元気づけられるようなヒーローを目指している。知名度アップのため子供向けの番組でのスーツアクター出演が目標。",
+
+    "source_url": "https://ensemble-stars.jp/characters/morisawa_chiaki"
+  },
+  {
+    "character_id": "013",
+    "name": "深海 奏汰",
+    "unit": "流星隊",
+
+    "basic_profile": {
+      "height": "176cm",
+      "weight": "60kg",
+      "blood_type": "B",
+      "age": "19",
+      "birthday": "8/30"
+    },
+
+    "hobbies": [
+      "水浴び",
+      "手作りグッズプレゼント"
+    ],
+
+    "skills": [
+      "イラスト",
+      "魚料理",
+      "力仕事"
+    ],
+
+    "profile_text": "海を愛し、ひととしての生き方を模索するアイドル。水族館の運営とマスコット活動も兼任している。穏やかでのんびりとした性格。水がないと息苦しくなる体質。穏やかに響く歌声で、パフォーマンスは緩やか。『STARMAKER PRODUCTION』の『流星隊』に所属している。流星ブルーを担当。アイドルとして、ヒーローとして、みんながあったかい気持ちになれるような存在を目指している。得意分野での活動範囲を広げようと考えている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/shinkai_kanata"
+  },
+  {
+    "character_id": "014",
+    "name": "天城 一彩",
+    "unit": "ALKALOID",
+
+    "basic_profile": {
+      "height": "174cm",
+      "weight": "57kg",
+      "blood_type": "A",
+      "age": "17",
+      "birthday": "1/4"
+    },
+
+    "hobbies": [
+      "社会勉強"
+    ],
+
+    "skills": [
+      "武術",
+      "狩り"
+    ],
+
+    "profile_text": "アイドル業界の知識がない状態でアイドルを目指し、一般常識も一緒に勉強中。前向きで純情、情熱的な性格で先走るところがある。天城燐音の弟でとても兄思い。真っ直ぐな歌声に加えて、パフォーマンスは力強く勢いがある。『STARMAKER PRODUCTION』の『ALKALOID』に所属しリーダーを務めている。『ALKALOID』のリーダーとして、大切な仲間を支え導ける存在になりたいと思っている。最近は質問を少なくしようと自主的に勉強をしている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/amagi_hiiro"
+  },
+  {
+    "character_id": "015",
+    "name": "白鳥 藍良",
+    "unit": "ALKALOID",
+
+    "basic_profile": {
+      "height": "167cm",
+      "weight": "53kg",
+      "blood_type": "B",
+      "age": "16",
+      "birthday": "11/27"
+    },
+
+    "hobbies": [
+      "アイドル研究",
+      "グッズ集め",
+      "SNS更新"
+    ],
+
+    "skills": [
+      "アイドルに関する知識"
+    ],
+
+    "profile_text": "アイドルが大好きなアイドルオタク。仏日のハーフの母を持つクォーター。社交的な性格で、明るく物怖じしない。常識的な感覚を持つが、劣等生の過去から自己肯定感が低いところもある。周りと共に前向きな面も育ってきている。爽やかで純粋な歌声で、パフォーマンスはファンサ精神に溢れている。『STARMAKER PRODUCTION』の『ALKALOID』に所属している。個人としては誰かにとって最高の『推し』になれるよう、アイドルとして成長しようとしている。『ユニット』のライブ演出など自分でも積極的に関わっていこうと思っている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/shiratori_aira"
+  },
+  {
+    "character_id": "016",
+    "name": "礼瀬 マヨイ",
+    "unit": "ALKALOID",
+
+    "basic_profile": {
+      "height": "174cm",
+      "weight": "54kg",
+      "blood_type": "O",
+      "age": "18",
+      "birthday": "6/6"
+    },
+
+    "hobbies": [
+      "ジオラマ制作",
+      "デザイン"
+    ],
+
+    "skills": [
+      "細かい手作業",
+      "隠し通路探し"
+    ],
+
+    "profile_text": "子供のようなか弱い存在が好きという残念な一面がある。時々心の衝動を口走ってしまう。臆病で卑屈な性格で、困ったひとを見過ごすことができない。自己肯定感は低いが、自身のポテンシャルを見つめ直して貢献しようとしている。怪しげで深みのある歌声で、パフォーマンスは柔軟性があり華やか。『STARMAKER PRODUCTION』の『ALKALOID』に所属している。仲間から尊敬されるようなアイドルになるため、『ALKALOID』の舞台デザインを提案できないかと考えている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/ayase_mayoi"
+  },
+  {
+    "character_id": "017",
+    "name": "風早 巽",
+    "unit": "ALKALOID",
+
+    "basic_profile": {
+      "height": "177cm",
+      "weight": "58kg",
+      "blood_type": "A",
+      "age": "19",
+      "birthday": "12/28"
+    },
+
+    "hobbies": [
+      "悩み相談"
+    ],
+
+    "skills": [
+      "家事全般",
+      "霊感"
+    ],
+
+    "profile_text": "事故で活動を一時休止していたアイドル。実家が教会で言動もどこか諭すような様子がある。優しくおっとりした性格で、包容力がある。お悩み相談など話を聞くのが得意で、支えあうことを大切にしている。穏やかで心地よく響く歌声で、パフォーマンスはストレートでしなやか。『STARMAKER PRODUCTION』の『ALKALOID』に所属している。『ALKALOID』の仲間とともに成長し、支えあえる存在になりたいと思っている。最近は自身の武器となるものを新たに探している。",
+
+    "source_url": "https://ensemble-stars.jp/characters/kazehaya_tatsumi"
+  },
+  {
+    "character_id": "018",
+    "name": "乱 凪砂",
+    "unit": "Eden",
+
+    "basic_profile": {
+      "height": "178cm",
+      "weight": "62kg",
+      "blood_type": "B",
+      "age": "19",
+      "birthday": "10/27"
+    },
+
+    "hobbies": [
+      "交流",
+      "読書（考古学）",
+      "発掘"
+    ],
+
+    "skills": [
+      "演技"
+    ],
+
+    "profile_text": "世間と隔絶した生活が長く、浮き世離れした感覚を持っている。穏やかで物静かだが、思慮深く仲間思いなところがある。役を演じて活動していた時期があり、状況を見ながら使い分けることもする。落ち着いた余韻の残る歌声で、パフォーマンスは目を惹く鮮やかさ。『COSMIC PRODUCTION』の『Eden』に所属しリーダーを務めている。アイドルたちを導きファンを笑顔にできる存在になるため、『Eden』としても個人としてもファンを惹きつける魅力をより身に付けたいと思っている。人とのコミュニケーションを積極的に取り始めている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/ran_nagisa"
+  },
+  {
+    "character_id": "019",
+    "name": "巴 日和",
+    "unit": "Eden",
+
+    "basic_profile": {
+      "height": "177cm",
+      "weight": "61kg",
+      "blood_type": "AB",
+      "age": "19",
+      "birthday": "7/24"
+    },
+
+    "hobbies": [
+      "ショッピング",
+      "喫茶"
+    ],
+
+    "skills": [
+      "愛されること",
+      "愛すること",
+      "見極めること"
+    ],
+
+    "profile_text": "巴財団の御曹司。漣ジュンとふたりで『Eve』としても活動している。明るく社交的な性格だが、自分のペースに巻き込む。我が侭な一面もあるが、愛のあるコミュニケーションを信条としている。通りが良く甘やかな歌声で、パフォーマンスはエレガントで華やか。『COSMIC PRODUCTION』の『Eden』に所属している。誰からも愛される存在になり、世界中に笑顔と愛を届けるのが生き甲斐。輝きを増すため演劇など他分野への挑戦も必要と考えている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/tomoe_hiyori"
+  },
+  {
+    "character_id": "020",
+    "name": "七種 茨",
+    "unit": "Eden",
+
+    "basic_profile": {
+      "height": "173cm",
+      "weight": "61kg",
+      "blood_type": "A",
+      "age": "18",
+      "birthday": "11/14"
+    },
+
+    "hobbies": [
+      "戦略",
+      "投資"
+    ],
+
+    "skills": [
+      "情報収集",
+      "サバイバル"
+    ],
+
+    "profile_text": "『COSMIC PRODUCTION』の副所長でアイドル代表。青年実業家でもある。社交的な面で普段は接しているが、自身の目的と利益のために動くことが多い。仲間意識の強いメンバーや周りの影響で身内に対しては甘くなっている。抜け感があり甘い歌声で、パフォーマンスは高度で機敏。『COSMIC PRODUCTION』の『Eden』に所属している。経営者だけでなく、アイドルとしても成功を収め、世間的に認められるために『Eden』の宣伝に力を入れている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/saegusa_ibara"
+  },
+  {
+    "character_id": "021",
+    "name": "漣 ジュン",
+    "unit": "Eden",
+
+    "basic_profile": {
+      "height": "174cm",
+      "weight": "62kg",
+      "blood_type": "O",
+      "age": "18",
+      "birthday": "8/16"
+    },
+
+    "hobbies": [
+      "筋トレ",
+      "釣り",
+      "ゲーム",
+      "読書（漫画）"
+    ],
+
+    "skills": [
+      "即興（ポージング、ダンス）"
+    ],
+
+    "profile_text": "学生時代から努力を重ねチャンスを勝ち取り、巴日和と共に『Eve』としても活動している。真面目で熱心な性格だが、日和に関しては口が悪くなる。見た目に刺々しさがあるものの、培った礼儀作法でカバーしている。深みがあり繊細な歌声ながら、パフォーマンスはダイナミック。『COSMIC PRODUCTION』の『Eden』に所属している。現状で満足せず、常に自己ベストを更新して行くのが目標。体力以外にも表現力に磨きを掛けるため新たにトレーニングを始めている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/sazanami_jun"
+  },
+  {
+    "character_id": "022",
+    "name": "斎宮 宗",
+    "unit": "Valkyrie",
+
+    "basic_profile": {
+      "height": "177cm",
+      "weight": "60kg",
+      "blood_type": "A",
+      "age": "19",
+      "birthday": "10/30"
+    },
+
+    "hobbies": [
+      "展覧会・美術館巡り",
+      "作家交流",
+      "トレーニング"
+    ],
+
+    "skills": [
+      "裁縫",
+      "レース編み"
+    ],
+
+    "profile_text": "アイドルを芸術として昇華しようと追究しており、現在はフランスでも活動を行いグローバルな視野も取り入れている。几帳面で神経質な性格。短気で激情家なところもあるが、優しさが時折垣間見える。力強く表現豊かな歌声で、パフォーマンスは緻密に計算されている。『COSMIC PRODUCTION』の『Valkyrie』に所属し、リーダーを務めている。至高の芸術を追求し、人間としての成長・進化も目標に、己の表現の幅を広げようとしている。TVや映像作品への出演もインスピレーションの源になると再解釈している。",
+
+    "source_url": "https://ensemble-stars.jp/characters/itsuki_shu"
+  },
+  {
+    "character_id": "023",
+    "name": "影片 みか",
+    "unit": "Valkyrie",
+
+    "basic_profile": {
+      "height": "172cm",
+      "weight": "55kg",
+      "blood_type": "B",
+      "age": "18",
+      "birthday": "12/26"
+    },
+
+    "hobbies": [
+      "がらくた収集",
+      "アート制作"
+    ],
+
+    "skills": [
+      "裁縫",
+      "修理",
+      "あやとり"
+    ],
+
+    "profile_text": "斎宮宗の芸術に傾倒していたが、現在は自分自身の芸術を探求中。和やかな性格だが、やや天然で気の抜けたところがある。集中力を時折発揮して自己研鑽に励んでいる。しっとりと柔らかな歌声で、パフォーマンスは異彩を放ちつつしなやか。『COSMIC PRODUCTION』の『Valkyrie』に所属している。最高の芸術を披露し、子どもたちを笑顔にできるようなアイドルを目指している。苦手分野が多いため、もう少し克服しようと料理など始めている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/kagehira_mika"
+  },
+  {
+    "character_id": "024",
+    "name": "葵 ひなた",
+    "unit": "2wink",
+
+    "basic_profile": {
+      "height": "170cm",
+      "weight": "55kg",
+      "blood_type": "AB",
+      "age": "17",
+      "birthday": "3/5"
+    },
+
+    "hobbies": [
+      "お菓子づくり",
+      "音楽鑑賞",
+      "園芸"
+    ],
+
+    "skills": [
+      "楽器演奏",
+      "曲芸",
+      "最高の笑顔"
+    ],
+
+    "profile_text": "双子の兄弟の兄。悪戯好きで行動が早い。明るくやんちゃな性格ではあるものの、奥手な一面もある。弟のゆうたを大事に想っている。エネルギーがあふれる歌声で、パフォーマンスも自由でアグレッシブ。『COSMIC PRODUCTION』の『2wink』に所属し、リーダーを務めている。『2wink』の有用性を示すため得意分野での可能性を探しつつ、ゆうたとともに楽しく目指せるトップアイドルへの方法を考えている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/aoi_hinata"
+  },
+  {
+    "character_id": "025",
+    "name": "葵 ゆうた",
+    "unit": "2wink",
+
+    "basic_profile": {
+      "height": "170cm",
+      "weight": "55kg",
+      "blood_type": "AB",
+      "age": "17",
+      "birthday": "3/5"
+    },
+
+    "hobbies": [
+      "音楽鑑賞",
+      "激辛グルメ研究",
+      "ファッション"
+    ],
+
+    "skills": [
+      "楽器演奏",
+      "曲芸",
+      "大食い競争"
+    ],
+
+    "profile_text": "双子の兄弟の弟。兄より意地っ張りで小悪魔的。明るく社交的な性格ではあるが、思春期真っ只中で思ったことはストレートに伝える。兄のひなたを大事に想っている。柔らかく伸びのある歌声を持ち、パフォーマンスは挑戦的で自由。『COSMIC PRODUCTION』の『2wink』に所属している。「葵ゆうた」という個人が世間に認められ、自立したアイドルになることが目標。最近はSNSでの発信内容も独創性がほしいと色々ネタ探し中。",
+
+    "source_url": "https://ensemble-stars.jp/characters/aoi_yuta"
+  },
+  {
+    "character_id": "026",
+    "name": "天城 燐音",
+    "unit": "Crazy:B",
+
+    "basic_profile": {
+      "height": "181cm",
+      "weight": "63kg",
+      "blood_type": "A",
+      "age": "21",
+      "birthday": "5/18"
+    },
+
+    "hobbies": [
+      "ギャンブル"
+    ],
+
+    "skills": [
+      "勝負",
+      "アドリブ"
+    ],
+
+    "profile_text": "趣味も人生もギャンブルのように生きるアイドル。椎名ニキとは元コンビ。明るく気前が良い性格だが、浪費家で横暴なところがある。天城一彩の兄。破天荒なようで策士的な一面があり計算の上で行動していることも多い。挑戦的な歌声で、パフォーマンスはダイナミックで迫力がある。『COSMIC PRODUCTION』の『Crazy:B』に所属し、リーダーを務めている。アイドルとして自由で愉快な居場所を獲得するため、しがらみにできるだけ囚われない活動を目指している。",
+
+    "source_url": "https://ensemble-stars.jp/characters/amagi_rinne"
+  },
+  {
+    "character_id": "027",
+    "name": "HiMERU",
+    "unit": "Crazy:B",
+
+    "basic_profile": {
+      "height": "178cm",
+      "weight": "57kg",
+      "blood_type": "O",
+      "age": "18",
+      "birthday": "7/7"
+    },
+
+    "hobbies": [
+      "読書（小説）",
+      "美容",
+      "トレーニング"
+    ],
+
+    "skills": [
+      "推理",
+      "情報収集"
+    ],
+
+    "profile_text": "元々ソロ活動をしていたアイドル。意識が高くどこか距離を置くような態度で冷ややかさがある。優しく落ち着いた性格だが、はぐらかすなどつかみ所がない。仲間意識が薄いようで何かと絡んでくる仲間に対して愛着が湧いている。甘く深みのある歌声で、パフォーマンスは余裕がありセクシー。『COSMIC PRODUCTION』の『Crazy:B』に所属している。常に完璧なHiMERUを世界中に披露できるよう、トレーニングを欠かさずHiMERUらしさを追究している。",
+
+    "source_url": "https://ensemble-stars.jp/characters/himeru"
+  },
+  {
+    "character_id": "028",
+    "name": "桜河 こはく",
+    "unit": "Crazy:B",
+
+    "basic_profile": {
+      "height": "168cm",
+      "weight": "52kg",
+      "blood_type": "B",
+      "age": "16",
+      "birthday": "2/5"
+    },
+
+    "hobbies": [
+      "和菓子",
+      "ショッピング"
+    ],
+
+    "skills": [
+      "隠密行動",
+      "体術",
+      "木登り"
+    ],
+
+    "profile_text": "世間の情報はネットやTVからのみですこしずれた知識がある。朱桜家の分家出身。 努力家で忍耐力があり、経験の浅さも身体能力の高さでカバーしている。京風の話しかたが特徴的で、年の割に大人びた言動が多いが喧嘩を売られたら買うタイプ。落ち着いた歌声で、パフォーマンスはキレがあり繊細。 『COSMIC PRODUCTION』の『Crazy:B』に所属している。新しい世界で知ったことを吸収し、アイドル活動に活かせるよう様々な経験を積みたいと思っている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/oukawa_kohaku"
+  },
+  {
+    "character_id": "029",
+    "name": "椎名 ニキ",
+    "unit": "Crazy:B",
+
+    "basic_profile": {
+      "height": "177cm",
+      "weight": "61kg",
+      "blood_type": "AB",
+      "age": "19",
+      "birthday": "10/5"
+    },
+
+    "hobbies": [
+      "新しい食材探し",
+      "食べ歩き"
+    ],
+
+    "skills": [
+      "料理（食べたことがあれば再現できる）",
+      "サバイバル"
+    ],
+
+    "profile_text": "料理人としても活躍するアイドル。天城燐音とは元コンビ。気さくで細かいことは気にしないが、空腹になると獣のように人が変わる。料理人としての優先度が高かったが、アイドルとしての楽しさを実感してきている。明るく通った歌声で、パフォーマンスも軽快で楽しげ。『COSMIC PRODUCTION』の『Crazy:B』に所属している。料理人とアイドルを両立し、心も胃袋も満足感が得られるような日が送れるようになりたい。料理とアイドルが合体した何かが作れないか考えている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/shiina_niki"
+  },
+  {
+    "character_id": "030",
+    "name": "朔間 零",
+    "unit": "UNDEAD",
+
+    "basic_profile": {
+      "height": "180cm",
+      "weight": "62kg",
+      "blood_type": "B",
+      "age": "20",
+      "birthday": "11/2"
+    },
+
+    "hobbies": [
+      "語学",
+      "ワイン",
+      "読書",
+      "映画鑑賞"
+    ],
+
+    "skills": [
+      "楽器演奏",
+      "目利き"
+    ],
+
+    "profile_text": "自称吸血鬼でいろんな知識を持っているが、日差しに弱く日中は相当頑張っている。思慮深く冷静であるが、ひとを惹きつける魔力めいたものを持っている。弟の朔間凛月を溺愛している。艶めき洗練された歌声で、パフォーマンスは堂々として力強い。『Rhythm Link』の『UNDEAD』に所属し、リーダーを務めている。新しいことへの挑戦を続け、ひとりの人間として、アイドルとして生きる道を目指している。",
+
+    "source_url": "https://ensemble-stars.jp/characters/sakuma_rei"
+  },
+  {
+    "character_id": "031",
+    "name": "羽風 薫",
+    "unit": "UNDEAD",
+
+    "basic_profile": {
+      "height": "178cm",
+      "weight": "63kg",
+      "blood_type": "B",
+      "age": "19",
+      "birthday": "11/3"
+    },
+
+    "hobbies": [
+      "サーフィン",
+      "ドラマ鑑賞"
+    ],
+
+    "skills": [
+      "水泳",
+      "友達作り"
+    ],
+
+    "profile_text": "女性からの賞賛でモチベーションが上がる性格で、サーフィンが趣味。軟派で飄々としているが、仲間想いで気が利く一面もある。軽やかで優しい歌声を持ち、パフォーマンスは積極的で華やか。『Rhythm Link』の『UNDEAD』に所属している。何事にも本気で向き合い、認められるような自分になりたいと思っており、どんなオファーも積極的に受けようとしている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/hakaze_kaoru"
+  },
+  {
+    "character_id": "032",
+    "name": "大神 晃牙",
+    "unit": "UNDEAD",
+
+    "basic_profile": {
+      "height": "175cm",
+      "weight": "58kg",
+      "blood_type": "A",
+      "age": "18",
+      "birthday": "7/18"
+    },
+
+    "hobbies": [
+      "ギター",
+      "作曲",
+      "カードゲーム"
+    ],
+
+    "skills": [
+      "ギター演奏",
+      "嗅覚の鋭さ"
+    ],
+
+    "profile_text": "ロックな生き様を目指す孤高の探求者。保守的な姿勢を嫌う。短気で血の気が多い性格だが、常識的なところがありいつも思春期のような葛藤を抱えている。情熱的な野心に満ちた歌声で、パフォーマンスはダイナミックで血気盛ん。『Rhythm Link』の『UNDEAD』に所属している。最高の仲間と共に最高のロックを披露し、アイドルの枠を超えたアーティストを目指している。最近は作曲にも挑戦中。",
+
+    "source_url": "https://ensemble-stars.jp/characters/ogami_koga"
+  },
+  {
+    "character_id": "033",
+    "name": "乙狩 アドニス",
+    "unit": "UNDEAD",
+
+    "basic_profile": {
+      "height": "178cm",
+      "weight": "65kg",
+      "blood_type": "A",
+      "age": "18",
+      "birthday": "8/29"
+    },
+
+    "hobbies": [
+      "日本文化と機械の勉強"
+    ],
+
+    "skills": [
+      "オカリナ",
+      "腕力",
+      "水泳"
+    ],
+
+    "profile_text": "平和の歌を歌うアイドルになるため、中東から来日してきた異国情緒溢れるハーフの青年。真面目な性格で、暴力を良しとせず慈愛に満ちているが、優しさと天然が表裏一体なところがある。まろやかに響く歌声を持ち、パフォーマンスは活気に溢れている。『Rhythm Link』の『UNDEAD』に所属している。世界中に歌を届け、心の安寧を与えるような活動をしたいと思っている。歌だけでなく自分の言葉で思いも伝えたいと、会話力のトレーニングも始めている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/otogari_adonis"
+  },
+  {
+    "character_id": "034",
+    "name": "真白 友也",
+    "unit": "Ra*bits",
+
+    "basic_profile": {
+      "height": "168cm",
+      "weight": "53kg",
+      "blood_type": "A",
+      "age": "17",
+      "birthday": "3/29"
+    },
+
+    "hobbies": [
+      "読書（漫画）",
+      "映画鑑賞"
+    ],
+
+    "skills": [
+      "動物に懐かれること",
+      "諦めないこと"
+    ],
+
+    "profile_text": "全方向で平均的なタイプ。アイドルの他に演劇にも励んで表現力を磨いている。真面目で面倒見も良く常識的だが、周りに振り回されやすい。穏やかであたたかい歌声を持ち、パフォーマンスはひたむき。『Rhythm Link』の『Ra*bits』に所属し、リーダーを務めている。オンリーワンのアイドルになるため、自分に足りない部分の研究として表現を勉強中。最近は教養も必要な気がして様々な先輩アイドルへの弟子入りも考えている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/mashiro_tomoya"
+  },
+  {
+    "character_id": "035",
+    "name": "仁兎 なずな",
+    "unit": "Ra*bits",
+
+    "basic_profile": {
+      "height": "160cm",
+      "weight": "50kg",
+      "blood_type": "O",
+      "age": "19",
+      "birthday": "4/27"
+    },
+
+    "hobbies": [
+      "ウサギのグッズ集め",
+      "ファッション"
+    ],
+
+    "skills": [
+      "ジャンプ力",
+      "聖歌"
+    ],
+
+    "profile_text": "明るい性格で面倒見がいいが、感情には素直ですこし怒りっぽくストレートな一面も。大学にも通っており、アイドル活動と合わせて自分らしさを模索中。快活でややハスキーな歌声を持ち、パフォーマンスは身軽で躍動感がある。『Rhythm Link』の『Ra*bits』に所属している。ステップアップした自分になるため、大学生とアイドルの両立を目指している。強みとなる得意分野の開拓が最近の挑戦。",
+
+    "source_url": "https://ensemble-stars.jp/characters/nito_nazuna"
+  },
+  {
+    "character_id": "036",
+    "name": "天満 光",
+    "unit": "Ra*bits",
+
+    "basic_profile": {
+      "height": "168cm",
+      "weight": "56kg",
+      "blood_type": "O",
+      "age": "17",
+      "birthday": "9/7"
+    },
+
+    "hobbies": [
+      "パン食",
+      "外で身体を動かすこと"
+    ],
+
+    "skills": [
+      "バク転",
+      "ダッシュ"
+    ],
+
+    "profile_text": "走るのが大好きで、所構わず走ってしまう癖がある。パンも大好き。天真爛漫で難しいことは苦手だが、物事の本質に対する感覚が鋭い。演技など他分野の才能も見せている。元気で勢いのある歌声で、パフォーマンスもアクセル全開。『Rhythm Link』の『Ra*bits』に所属している。演技でも歌でも、マルチに活躍できるスーパースターを目指している。最近はパン食やダッシュを活かせそうなバラエティにも興味がある。",
+
+    "source_url": "https://ensemble-stars.jp/characters/tenma_mitsuru"
+  },
+  {
+    "character_id": "037",
+    "name": "紫之 創",
+    "unit": "Ra*bits",
+
+    "basic_profile": {
+      "height": "165cm",
+      "weight": "51kg",
+      "blood_type": "AB",
+      "age": "17",
+      "birthday": "7/15"
+    },
+
+    "hobbies": [
+      "ガーデニング",
+      "家事全般",
+      "読書"
+    ],
+
+    "skills": [
+      "力仕事",
+      "紅茶を美味しく淹れること",
+      "お絵描き"
+    ],
+
+    "profile_text": "女の子と間違われる見た目ではあるが、けっこう力持ち。穏やかで献身的な性格だが、すこし引っ込み思案で独占欲が強い一面も。優しく包み込むような歌声で、パフォーマンスは控えめながら繊細。『Rhythm Link』の『Ra*bits』に所属している。みんなに笑顔と癒やしを届けるアイドルになるために、趣味や特技により磨きを掛けたいと勉強している。目下、体力づくりも目標。",
+
+    "source_url": "https://ensemble-stars.jp/characters/shino_hajime"
+  },
+  {
+    "character_id": "038",
+    "name": "蓮巳 敬人",
+    "unit": "紅月",
+
+    "basic_profile": {
+      "height": "178cm",
+      "weight": "61kg",
+      "blood_type": "A",
+      "age": "19",
+      "birthday": "9/6"
+    },
+
+    "hobbies": [
+      "文筆",
+      "眼鏡のコレクション"
+    ],
+
+    "skills": [
+      "三味線"
+    ],
+
+    "profile_text": "寺の住職の息子で、説教になると話が長くなる。真面目で気難しいが、急なハプニングには少々弱く漫画好きなど少年らしさも持っている。芯の通った艶やかな歌声で、パフォーマンスは優雅で洗練されている。『Rhythm Link』の『紅月』に所属しリーダーを務めている。伝統的な部分を軸にしつつ、新風も常に取り込み、広く愛されるような最高の物語を『紅月』に提供したいと思っている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/hasumi_keito"
+  },
+  {
+    "character_id": "039",
+    "name": "鬼龍 紅郎",
+    "unit": "紅月",
+
+    "basic_profile": {
+      "height": "181cm",
+      "weight": "66kg",
+      "blood_type": "O",
+      "age": "19",
+      "birthday": "1/26"
+    },
+
+    "hobbies": [
+      "裁縫",
+      "衣装デザイン"
+    ],
+
+    "skills": [
+      "空手"
+    ],
+
+    "profile_text": "アイドルにしては硬派で少し不器用。裁縫が得意で難しいことは頭より行動派。面倒見が良く男気に溢れているが、幼い妹には過保護なところがある。深みのあるハスキーな歌声で、パフォーマンスは豪快で躍動的。『Rhythm Link』の『紅月』に所属している。自分がどんなアイドルなのか模索を続け、何が一番なのかを見極めようとジャンルを問わず挑戦中。『紅月』のためになることがしたい。",
+
+    "source_url": "https://ensemble-stars.jp/characters/kiryu_kuro"
+  },
+  {
+    "character_id": "040",
+    "name": "神崎 颯馬",
+    "unit": "紅月",
+
+    "basic_profile": {
+      "height": "174cm",
+      "weight": "56kg",
+      "blood_type": "A",
+      "age": "18",
+      "birthday": "4/20"
+    },
+
+    "hobbies": [
+      "料理",
+      "茶道",
+      "香道"
+    ],
+
+    "skills": [
+      "武芸"
+    ],
+
+    "profile_text": "普段から帯刀している現代の武士。会話や行動も古風で一本気。真面目で世話焼きなところもあるが、思い込みも強く猪突猛進で弟気質な一面もある。ひたむきで柔らかな歌声を持ち、パフォーマンスは溌剌としている。『Rhythm Link』の『紅月』に所属している。付き従うだけではなく、自分の意思を持ち『ユニット』に貢献するため、自身の得意分野を活かせないか模索中。グローバル展開も見据えて英語も勉強中。",
+
+    "source_url": "https://ensemble-stars.jp/characters/kanzaki_souma"
+  },
+  {
+    "character_id": "041",
+    "name": "滝 維吹",
+    "unit": "紅月",
+
+    "basic_profile": {
+      "height": "165cm",
+      "weight": "51kg",
+      "blood_type": "B",
+      "age": "15",
+      "birthday": "1/21"
+    },
+
+    "hobbies": [
+      "楽器演奏",
+      "作曲"
+    ],
+
+    "skills": [
+      "自己流武術",
+      "ブレイクダンス"
+    ],
+
+    "profile_text": "沖縄生まれのアメリカ育ちで、飄々としているが喧嘩っ早いところもある。年の割に口が達者で論理的な思考の持ち主。『Rhythm Link』の『紅月』に所属している。新しくできた居場所で『真実（ほんとう）の\"和風\"』を見つけたいと思っている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/taki_ibuki"
+  },
+  {
+    "character_id": "042",
+    "name": "小鹿 ジュイス",
+    "unit": "MELLOW DEAR US",
+
+    "basic_profile": {
+      "height": "180cm",
+      "weight": "66kg",
+      "blood_type": "O",
+      "age": "21",
+      "birthday": "8/5"
+    },
+
+    "hobbies": [
+      "カフェ巡り"
+    ],
+
+    "skills": [
+      "何時間でも歌って踊れる"
+    ],
+
+    "profile_text": "堂々とした性格で、どんな時も冷静。持ち前の体格を活かしながら、豊かな表情で魅了する。『Rhythm Link』の『MELLOW DEAR US』に所属しており、リーダー兼パフォーマンス担当でメインボーカル。",
+
+    "source_url": "https://ensemble-stars.jp/characters/kojika_juis"
+  },
+  {
+    "character_id": "043",
+    "name": "円果 望見",
+    "unit": "MELLOW DEAR US",
+
+    "basic_profile": {
+      "height": "176cm",
+      "weight": "59kg",
+      "blood_type": "B",
+      "age": "20",
+      "birthday": "6/20"
+    },
+
+    "hobbies": [
+      "ネイル",
+      "解剖・解体"
+    ],
+
+    "skills": [
+      "相手の気分がわかる"
+    ],
+
+    "profile_text": "高飛車な性格でファンに対して女王さまのような振る舞いをパフォーマンスとして行っている。『Rhythm Link』の『MELLOW DEAR US』に所属しており、ビジュアル担当でメインラッパー。",
+
+    "source_url": "https://ensemble-stars.jp/characters/madoka_nozomi"
+  },
+  {
+    "character_id": "044",
+    "name": "久遠 舞珠",
+    "unit": "MELLOW DEAR US",
+
+    "basic_profile": {
+      "height": "170cm",
+      "weight": "56kg",
+      "blood_type": "AB",
+      "age": "23",
+      "birthday": "12/14"
+    },
+
+    "hobbies": [
+      "写真撮影",
+      "SNS更新"
+    ],
+
+    "skills": [
+      "振り付けは一回で覚えられる"
+    ],
+
+    "profile_text": "朗らかで人懐っこい性格。サーカスの出身で身のこなしの軽さと器用さを活かしている。『Rhythm Link』の『MELLOW DEAR US』に所属しており、ダンス担当でメインダンサー。",
+
+    "source_url": "https://ensemble-stars.jp/characters/kuon_mashu"
+  },
+  {
+    "character_id": "045",
+    "name": "甘楽 チトセ",
+    "unit": "MELLOW DEAR US",
+
+    "basic_profile": {
+      "height": "175cm",
+      "weight": "57kg",
+      "blood_type": "A",
+      "age": "24",
+      "birthday": "11/19"
+    },
+
+    "hobbies": [
+      "映画鑑賞"
+    ],
+
+    "skills": [
+      "耳コピができる"
+    ],
+
+    "profile_text": "明るく物腰の柔らかな性格。ファンから熱い視線を集める。優しく甘い歌声をムードに合わせて巧みに表現する。『Rhythm Link』の『MELLOW DEAR US』に所属しており、ビジュアル担当でオールラウンダー。",
+
+    "source_url": "https://ensemble-stars.jp/characters/tsuzura_chitose"
+  },
+  {
+    "character_id": "046",
+    "name": "朱桜 司",
+    "unit": "Knights",
+
+    "basic_profile": {
+      "height": "168cm",
+      "weight": "55kg",
+      "blood_type": "A",
+      "age": "17",
+      "birthday": "4/6"
+    },
+
+    "hobbies": [
+      "チェス",
+      "カードゲーム",
+      "読書"
+    ],
+
+    "skills": [
+      "乗馬",
+      "射撃"
+    ],
+
+    "profile_text": "名家の息子で騎士道精神の元に行動しており、気高さを理想としている。責任感があり真面目な性格だが、短気で子供っぽいところもある。庶民的な文化が珍しく興味がある。凛とした真っ直ぐな歌声で、パフォーマンスは気高くエレガント。『NEW DIMENSION』の『Knights』に所属しリーダーを務めている。『Knights』の王として周りに認められるような成果を挙げたいと思っている。個人としても騎士道を体現するアイドルを極めようとしているが、柔軟性を高めるべきか悩み中。",
+
+    "source_url": "https://ensemble-stars.jp/characters/suou_tsukasa"
+  },
+  {
+    "character_id": "047",
+    "name": "月永 レオ",
+    "unit": "Knights",
+
+    "basic_profile": {
+      "height": "169cm",
+      "weight": "54kg",
+      "blood_type": "O",
+      "age": "19",
+      "birthday": "5/5"
+    },
+
+    "hobbies": [
+      "作曲",
+      "楽器演奏",
+      "ファッション",
+      "庭キャン"
+    ],
+
+    "skills": [
+      "作曲",
+      "即興（演奏、ダンス）"
+    ],
+
+    "profile_text": "売れっ子作曲家で国内外から注目を浴びている。音楽は生き甲斐であり、誰かと繋がるコミュニケーションでもある。純粋で自由奔放だが、仲間想いでナイーブなところがある。甘えん坊な一面もあり、相手によっては我が侭で押し通すことも。表現幅のある歌声で、パフォーマンスは堂々としている。『NEW DIMENSION』の『Knights』に所属している。ひとを笑顔にできるような曲をつくり続け、アイドルを目一杯楽しむのが目標。新しく、刺激的な要素を取り入れたいと思っている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/tsukinaga_leo"
+  },
+  {
+    "character_id": "048",
+    "name": "瀬名 泉",
+    "unit": "Knights",
+
+    "basic_profile": {
+      "height": "174cm",
+      "weight": "60kg",
+      "blood_type": "A",
+      "age": "19",
+      "birthday": "11/2"
+    },
+
+    "hobbies": [
+      "健康管理",
+      "サイクリング"
+    ],
+
+    "skills": [
+      "ポージング",
+      "バレエ",
+      "料理"
+    ],
+
+    "profile_text": "ヨーロッパでモデルの仕事もしつつ、アイドル活動で日本と行き来している。ストイックで神経質だが、気を許した相手には世話焼きな一面もある。伸びやかに響く歌声を持ち、パフォーマンスはモダンでスマート。『NEW DIMENSION』の『Knights』に所属している。モデルとして世界に認められ、同時にアイドルとしての飛躍も目指し、様々なトレーニングを取り入れている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/sena_izumi"
+  },
+  {
+    "character_id": "049",
+    "name": "朔間 凛月",
+    "unit": "Knights",
+
+    "basic_profile": {
+      "height": "171cm",
+      "weight": "55kg",
+      "blood_type": "AB",
+      "age": "19",
+      "birthday": "9/22"
+    },
+
+    "hobbies": [
+      "お菓子づくり",
+      "寝ること"
+    ],
+
+    "skills": [
+      "どこでも寝られる",
+      "ピアノ"
+    ],
+
+    "profile_text": "日光が苦手で昼間はエンジンがかかりにくく、各所で仮眠をとっていることが多い。マイペースでのんびりしているが、思考は早く時に辛辣なことも言う。身近なひとたちへの愛情が深く、時に嫉妬も深い。密やかで甘美な歌声で、パフォーマンスは淀みなく軽やか。『NEW DIMENSION』の『Knights』に所属している。みんなと同じ世界で生きていくために、昼間の仕事も出来る範囲で挑戦している。SNSでの深夜配信など、夜の交流も駆使しながら独自性を研究中。",
+
+    "source_url": "https://ensemble-stars.jp/characters/sakuma_ritsu"
+  },
+  {
+    "character_id": "050",
+    "name": "鳴上 嵐",
+    "unit": "Knights",
+
+    "basic_profile": {
+      "height": "176cm",
+      "weight": "59kg",
+      "blood_type": "B",
+      "age": "18",
+      "birthday": "3/3"
+    },
+
+    "hobbies": [
+      "美容",
+      "香水",
+      "ファッション"
+    ],
+
+    "skills": [
+      "ポージング",
+      "メイク"
+    ],
+
+    "profile_text": "自称『お姉ちゃん』で面倒見が良い。かわいいものと努力する姿が好き。気さくで社交的な性格だが、ナイーブな一面もある。傷つきやすさも今は強さに変えている。優しく朗らかな歌声で、パフォーマンスは華やかで目を引く。『NEW DIMENSION』の『Knights』に所属している。どんなひとでも肯定され、輝けるような世界をつくりたいと思っている。自身でプロデュースしたブランドを作るのが最近の目標。",
+
+    "source_url": "https://ensemble-stars.jp/characters/narukami_arashi"
+  },
+  {
+    "character_id": "051",
+    "name": "逆先 夏目",
+    "unit": "Switch",
+
+    "basic_profile": {
+      "height": "171cm",
+      "weight": "54kg",
+      "blood_type": "AB",
+      "age": "18",
+      "birthday": "2/4"
+    },
+
+    "hobbies": [
+      "実験",
+      "人脈づくり"
+    ],
+
+    "skills": [
+      "占い",
+      "大道具製作",
+      "料理"
+    ],
+
+    "profile_text": "有名な占い師の息子で、自身も占い師をやりながらアイドルをしている。ミステリアスな言動が多いが、真面目で努力家。理想を現実にしようと様々な研究を行っている。甘く悪戯っぽい歌声で、パフォーマンスは洗練されている。『NEW DIMENSION』の『Switch』に所属しリーダーを務めている。占い師としても、アイドルとしても成功した人生を目指して技術を磨いている。まだ見ぬ新しい演出のために占い相談の傍らアイディアのヒントを探している。",
+
+    "source_url": "https://ensemble-stars.jp/characters/sakasaki_natsume"
+  },
+  {
+    "character_id": "052",
+    "name": "青葉 つむぎ",
+    "unit": "Switch",
+
+    "basic_profile": {
+      "height": "176cm",
+      "weight": "58kg",
+      "blood_type": "O",
+      "age": "19",
+      "birthday": "8/7"
+    },
+
+    "hobbies": [
+      "読書",
+      "ドラマ鑑賞",
+      "開運グッズ収集"
+    ],
+
+    "skills": [
+      "企画調整",
+      "工数調整"
+    ],
+
+    "profile_text": "お人好しで鈍臭さもあるが、身近な人々のためなら努力も犠牲も厭わない。優しく穏やかな性格だが、時々空気を読まない言動がある。経営の知識もあり、サポートとあれば幅広く発揮する。温かみがあり、穏やかな歌声で、パフォーマンスは余裕があり軽快。『NEW DIMENSION』の『Switch』に所属している。アイドルとして、『ユニット』に貢献できる活動をするため、自分なりに企画も考えて新しい一面を模索している。",
+
+    "source_url": "https://ensemble-stars.jp/characters/aoba_tsumugi"
+  },
+  {
+    "character_id": "053",
+    "name": "春川 宙",
+    "unit": "Switch",
+
+    "basic_profile": {
+      "height": "166cm",
+      "weight": "51kg",
+      "blood_type": "B",
+      "age": "17",
+      "birthday": "7/1"
+    },
+
+    "hobbies": [
+      "ゲーム",
+      "遊び",
+      "キャンプ"
+    ],
+
+    "skills": [
+      "パルクール",
+      "アクロバット",
+      "笑顔の魔法"
+    ],
+
+    "profile_text": "音やにおいなどあらゆるものに色を感じる共感覚の持ち主。ゲーム好きで呑み込みが早く器用。明るく朗らかで、素直な性格。伸び伸び育ち身体能力が高い。ひとと違う感覚をパフォーマンスという魔法として取り入れつつある。弾むような歌声で、パフォーマンスは伸び伸びとして機敏。『NEW DIMENSION』の『Switch』に所属している。『Switch』を引っ張れる存在として、日々新しいことへの挑戦を目標としている。好きなことと、好きじゃないことにもトライしている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/harukawa_sora"
+  },
+  {
+    "character_id": "054",
+    "name": "三毛縞 斑",
+    "unit": "MaM",
+
+    "basic_profile": {
+      "height": "180cm",
+      "weight": "65kg",
+      "blood_type": "A",
+      "age": "19",
+      "birthday": "5/16"
+    },
+
+    "hobbies": [
+      "珍品集め",
+      "文化交流",
+      "助っ人"
+    ],
+
+    "skills": [
+      "イベント盛り上げ",
+      "体術",
+      "力比べ"
+    ],
+
+    "profile_text": "お祭り参加、町おこしなどフレキシブルに駆けつける助っ人。人助けが得意。快活で剛胆だが、誰にでも距離感が近い。問題事は大小問わず何でも対応できてしまう人並外れた能力を持つ。溌剌した歌声で、パフォーマンスは華やかで思いきりがいい。『NEW DIMENSION』に所属し『MaM』として活動している。誰かに自分の背を見て追いかけてもらえるような、アイドルとしての自分らしさを見つめ直している。",
+
+    "source_url": "https://ensemble-stars.jp/characters/mikejima_madara"
+  },
+  {
+    "character_id": "055",
+    "name": "エス",
+    "unit": "Special for Princess!",
+
+    "basic_profile": {
+      "height": "160cm",
+      "weight": "50kg",
+      "blood_type": "B",
+      "age": "16",
+      "birthday": "9/12"
+    },
+
+    "hobbies": [
+      "新しいことへの挑戦"
+    ],
+
+    "skills": [
+      "サバイバル術"
+    ],
+
+    "profile_text": "チャレンジ精神旺盛でいつでも元気溌剌な性格。身体や口を動かしていていつも忙しないが、冒険好きで何かと器用。『NEW DIMENSION』の『Special for Princess!』に所属し、リーダーを務めている。アイドルという新しい環境で、自分がどんな冒険に挑戦するのか楽しみにしており、アイドルとしての自分らしさを見つけたいと思っている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/esu"
+  },
+  {
+    "character_id": "056",
+    "name": "カンナ",
+    "unit": "Special for Princess!",
+
+    "basic_profile": {
+      "height": "163cm",
+      "weight": "50kg",
+      "blood_type": "A",
+      "age": "12",
+      "birthday": "6/1"
+    },
+
+    "hobbies": [
+      "積み木",
+      "パズル"
+    ],
+
+    "skills": [
+      "計算"
+    ],
+
+    "profile_text": "人や物事を分析し、分類・判断するロボットのような少年。感情の起伏があまりなく、何かと簡単なコミュニケーションで済まそうとする。『NEW DIMENSION』の『Special for Princess!』に所属している。身の安全が守られる環境であれば特別努力する気はなく、必要なことにのみ注力すれば良いと思っている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/kanna"
+  },
+  {
+    "character_id": "057",
+    "name": "ユメ",
+    "unit": "Special for Princess!",
+
+    "basic_profile": {
+      "height": "156cm",
+      "weight": "48kg",
+      "blood_type": "O",
+      "age": "14",
+      "birthday": "12/2"
+    },
+
+    "hobbies": [
+      "ピアノ"
+    ],
+
+    "skills": [
+      "コスプレ",
+      "家事全般"
+    ],
+
+    "profile_text": "盲目的で利己主義的なところがある少年。コスプレイヤーとしての活動経験があり、自分の見せ方にはこだわりがある。『NEW DIMENSION』の『Special for Princess!』に所属している。自分自身の見せ方は自分が一番知っているつもりだが、エスが理想的なアイドルになってくれるのであれば努力は惜しまないつもりでいる。",
+
+    "source_url": "https://ensemble-stars.jp/characters/yume"
+  },
+  {
+    "character_id": "058",
+    "name": "ライカ",
+    "unit": "Special for Princess!",
+
+    "basic_profile": {
+      "height": "158cm",
+      "weight": "48kg",
+      "blood_type": "B",
+      "age": "14",
+      "birthday": "5/22"
+    },
+
+    "hobbies": [
+      "日向ぼっこ",
+      "ポエム"
+    ],
+
+    "skills": [
+      "歌"
+    ],
+
+    "profile_text": "明るくて腰は低いが、ちょっと手癖の悪い少年。歌が好き。常識が少々欠けており、『善いこと』の分別が曖昧になっている。『NEW DIMENSION』の『Special for Princess!』に所属している。憧れの人と楽しくアイドルができて、歌をたくさんの人に聞いてもらいたいと思っている。",
+
+    "source_url": "https://ensemble-stars.jp/characters/raika"
+  }
+]
+
