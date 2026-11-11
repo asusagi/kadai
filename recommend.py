@@ -1,3 +1,4 @@
+
 import json
 import re
 from pathlib import Path
@@ -44,6 +45,7 @@ def load_json(path):
             f"{path.name} が見つかりません。\n"
             "recommend.py と同じフォルダに置いてください。"
         )
+
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -54,6 +56,7 @@ def get_field_text(character, field_paths):
 
     for path in field_paths:
         value = character
+
         for key in path.split("."):
             if isinstance(value, dict):
                 value = value.get(key)
@@ -62,7 +65,9 @@ def get_field_text(character, field_paths):
                 break
 
         if isinstance(value, list):
-            values.extend(str(item) for item in value if item is not None)
+            values.extend(
+                str(item) for item in value if item is not None
+            )
         elif value is not None:
             values.append(str(value))
 
@@ -70,16 +75,19 @@ def get_field_text(character, field_paths):
 
 
 def get_height_category(height_text):
-    """'179cm' のような身長情報を3段階に分類する。"""
+    """身長を3段階に分類する。"""
     match = re.search(r"\d+(?:\.\d+)?", str(height_text))
+
     if not match:
         return None
 
     height = float(match.group())
+
     if height >= 175:
         return "high"
     if height >= 170:
         return "middle"
+
     return "low"
 
 
@@ -99,24 +107,24 @@ def ask_answers(mapping):
 
         while True:
             raw = input("番号を入力してください: ").strip()
+
             if raw.isdigit() and 1 <= int(raw) <= len(option_list):
                 answers[question_id] = option_list[int(raw) - 1]
                 break
+
             print(f"1〜{len(option_list)} の番号を入力してください。")
 
     return answers
 
 
 def score_keyword_question(character, question_id, answer, mapping):
-    """
-    1つの質問のキーワード一致率を計算する。
-    一致したキーワード数 / 対応キーワード数 を 0～1 で返す。
-    """
+    """1つの質問のキーワード一致率を計算する。"""
     keywords = mapping["answer_to_features"][question_id][answer]
     fields = mapping["field_mapping"][question_id]
     text = get_field_text(character, fields)
 
     matched = []
+
     for keyword in keywords:
         if keyword and keyword in text and keyword not in matched:
             matched.append(keyword)
@@ -128,7 +136,7 @@ def score_keyword_question(character, question_id, answer, mapping):
 
 
 def calculate_scores(characters, answers, mapping):
-    """58人それぞれの性格・身長・その他・総合スコアを計算する。"""
+    """キャラクターごとの性格・身長・その他・総合スコアを計算する。"""
     results = []
 
     for character in characters:
@@ -140,12 +148,13 @@ def calculate_scores(characters, answers, mapping):
         # Q1～Q5：性格に関するスコア
         for question_id in QUESTION_GROUPS["personality"]:
             answer = answers[question_id]
+
             score, matched = score_keyword_question(
                 character, question_id, answer, mapping
             )
+
             personality_scores.append(score)
-            if matched:
-                personality_evidence.extend(matched)
+            personality_evidence.extend(matched)
 
         # Q7～Q10：趣味・特技・活動・目標に関するスコア
         for question_id in QUESTION_GROUPS["other"]:
@@ -158,14 +167,15 @@ def calculate_scores(characters, answers, mapping):
             score, matched = score_keyword_question(
                 character, question_id, answer, mapping
             )
+
             other_scores.append(score)
-            if matched:
-                other_evidence.extend(matched)
+            other_evidence.extend(matched)
 
         personality_score = (
             sum(personality_scores) / len(personality_scores)
             if personality_scores else 0.0
         )
+
         other_score = (
             sum(other_scores) / len(other_scores)
             if other_scores else 0.0
@@ -173,13 +183,16 @@ def calculate_scores(characters, answers, mapping):
 
         # Q6：身長スコア
         height_answer = answers["Q6_身長"]
+
         if height_answer == "特にこだわりはない":
-            height_score = None  # 身長を総合点に含めない
+            height_score = None
         else:
             preferred = HEIGHT_ANSWERS[height_answer]
+
             actual = get_height_category(
                 character.get("basic_profile", {}).get("height", "")
             )
+
             height_score = 1.0 if actual == preferred else 0.0
 
         # 回答した項目だけで重みを再調整する
@@ -193,7 +206,9 @@ def calculate_scores(characters, answers, mapping):
         weighted_total += other_score * WEIGHTS["other"]
         total_weight += WEIGHTS["other"]
 
-        overall_score = weighted_total / total_weight if total_weight else 0.0
+        overall_score = (
+            weighted_total / total_weight if total_weight else 0.0
+        )
 
         results.append({
             "character": character,
@@ -223,21 +238,27 @@ def print_ranking(title, results, score_key, top_n=5):
     for rank, item in enumerate(ranked[:top_n], start=1):
         character = item["character"]
         score = item[score_key] * 100
+
         height = character.get("basic_profile", {}).get("height", "不明")
-        print(f"{rank}位：{character['name']}（{character.get('unit', '所属不明')}）")
+
+        print(
+            f"{rank}位：{character['name']} "
+            f"（{character.get('unit', '所属不明')}）"
+        )
         print(f"    スコア：{score:.1f}点 / 100点")
         print(f"    身長：{height}")
 
         if score_key == "personality_score":
             evidence = item["personality_evidence"]
-        elif score_key == "other_score":
-            evidence = item["other_evidence"]
         else:
             evidence = list(dict.fromkeys(
-                item["personality_evidence"] + item["other_evidence"]
+                item["personality_evidence"]
+                + item["other_evidence"]
             ))
+
         if evidence:
             print(f"    一致したキーワード：{', '.join(evidence[:6])}")
+
         print()
 
 
@@ -245,54 +266,31 @@ def main():
     try:
         characters = load_json(CHARACTER_FILE)
         mapping = load_json(MAPPING_FILE)
+
     except (FileNotFoundError, json.JSONDecodeError) as error:
         print(f"ファイル読み込みエラー：{error}")
         return
 
-    print(f"キャラクター数：{len(characters)}人")
+    print(f"キャラクター数：{len(characters)}人}")
+
     answers = ask_answers(mapping)
     results = calculate_scores(characters, answers, mapping)
 
+    # 性格重視ランキング
     print_ranking(
         "性格重視のおすすめ TOP 5",
         results,
         "personality_score"
     )
 
+    # 総合ランキング
     print_ranking(
         "総合おすすめ TOP 5",
         results,
         "overall_score"
     )
 
-    # 結果をJSONにも保存する
-    output = []
-    for item in sorted(
-        results,
-        key=lambda x: x["overall_score"],
-        reverse=True
-    ):
-        character = item["character"]
-        output.append({
-            "character_id": character.get("character_id"),
-            "name": character.get("name"),
-            "unit": character.get("unit"),
-            "personality_score": round(item["personality_score"] * 100, 2),
-            "height_score": (
-                None if item["height_score"] is None
-                else round(item["height_score"] * 100, 2)
-            ),
-            "other_score": round(item["other_score"] * 100, 2),
-            "overall_score": round(item["overall_score"] * 100, 2),
-            "personality_matched_keywords": item["personality_evidence"],
-            "other_matched_keywords": item["other_evidence"],
-        })
-
-    output_path = BASE_DIR / "recommendation_results.json"
-    with output_path.open("w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-
-    print(f"\n診断結果を {output_path.name} に保存しました！")
+    print("診断が終了しました！")
 
 
 if __name__ == "__main__":
