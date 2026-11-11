@@ -259,16 +259,6 @@ def main():
         "personality_score"
     )
 
-    # 身長にこだわりがない場合でも、身長スコアは参考表示しない
-    if answers["Q6_身長"] == "特にこだわりはない":
-        print("\n身長は「こだわりなし」のため、身長別ランキングは表示しません。")
-    else:
-        print_ranking(
-            "身長重視のおすすめ TOP 5",
-            results,
-            "height_score"
-        )
-
     print_ranking(
         "総合おすすめ TOP 5",
         results,
