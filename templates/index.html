@@ -162,7 +162,7 @@
 
     {% if questions %}
 
-    <form action="{{ url_for('diagnose') }}" method="GET">
+    <form action="/diagnose" method="POST">
 
         {% for question_id, options in questions.items() %}
 
