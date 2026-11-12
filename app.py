@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 
 from recommend import calculate_scores, load_json
 
@@ -57,7 +57,7 @@ def make_ranking(results, score_key, ranking_type):
     return output
 
 
-@app.route("/")
+@app.route("/",methods=["GET"])
 def index():
     """10問の診断画面を表示する。"""
 
@@ -81,9 +81,11 @@ def index():
         ), 500
 
 
-@app.route("/diagnose", methods=["POST"])
+@app.route("/diagnose", methods=["GET","POST"])
 def diagnose():
     """回答を受け取り、Pythonで診断する。"""
+    if request.method == "GET":
+        return redirect(url_for("index"))
 
     try:
         characters, mapping = get_data()
